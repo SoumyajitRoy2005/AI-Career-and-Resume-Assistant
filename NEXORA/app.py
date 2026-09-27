@@ -107,7 +107,7 @@ def onboarding():
 
 def dashboard():
     p=st.session_state.profile
-    st.markdown(f'<div class="hero"><div class="kicker">NEXORA WORKSPACE</div><h1>Welcome back, {p.get("name","there").split()[0]}.</h1><p>Your AI career workspace is ready. Choose a tool below to continue.</p></div>',unsafe_allow_html=True)
+    st.markdown(f'<div class="hero"><div class="kicker">NEXORA WORKSPACE</div><h1>Welcome back, {(p.get("name") or "there").split()[0]}.</h1><p>Your AI career workspace is ready. Choose a tool below to continue.</p></div>',unsafe_allow_html=True)
     st.markdown("## Your career toolkit")
     items=[("Smart Student Profile","Profile & career goals","Profile"),("AI Resume Generator","Create an ATS-ready resume","Resume AI"),("Resume Analyzer","Improve your ATS readiness","Resume Analyzer"),("JD Analyzer","Understand role requirements","JD Analyzer"),("Resume–Job Match","Measure profile alignment","Job Match"),("Skill Gap Analyzer","See what to learn next","Skill Gap"),("AI Career Mentor","Ask your career questions","Career Mentor"),("Interview Preparation","Practice role-specific questions","Interview"),("Cover Letter Generator","Create tailored applications","Cover Letter"),("Learning Roadmap","Build a personalized plan","Learning Roadmap")]
     for row in range(0,10,5):
