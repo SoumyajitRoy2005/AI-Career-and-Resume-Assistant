@@ -1,0 +1,28 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+html,body,[class*="css"]{font-family:Inter,system-ui,sans-serif}
+.stApp{background:radial-gradient(circle at 70% 10%,rgba(106,76,255,.16),transparent 30%),radial-gradient(circle at 10% 80%,rgba(0,210,255,.09),transparent 28%),#070912;color:#f7f8ff}
+.block-container{max-width:1400px;padding:2rem 3rem 4rem}
+section[data-testid="stSidebar"]{background:linear-gradient(180deg,#0c1020,#080a12);border-right:1px solid rgba(255,255,255,.08)}
+section[data-testid="stSidebar"] *{color:#eef1ff!important}
+.nexora-logo{font-size:85px;font-weight:800;letter-spacing:.18em;background:linear-gradient(90deg,#fff,#a7a0ff,#5ee8ff);-webkit-background-clip:text;color:transparent}
+.hero{padding:55px 50px;border:1px solid rgba(255,255,255,.1);border-radius:30px;background:linear-gradient(135deg,rgba(26,30,56,.92),rgba(12,15,29,.78));box-shadow:0 30px 100px rgba(55,45,170,.18)}
+.kicker{color:#8f87ff;text-transform:uppercase;letter-spacing:.16em;font-weight:700;font-size:25px}
+.hero h1{font-size:56px;line-height:1.02;margin:12px 0;background:linear-gradient(90deg,#fff,#c8c4ff,#79e8ff);-webkit-background-clip:text;color:transparent}
+.hero p{color:#aeb5ca;font-size:17px;max-width:680px;line-height:1.7}
+.card{background:rgba(20,24,42,.72);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:22px;box-shadow:0 15px 45px rgba(0,0,0,.18);height:100%}
+.card h3{margin:4px 0 8px;color:#fff}.muted{color:#9ba4bb}.accent{color:#8f87ff}
+.metric{font-size:40px;font-weight:800;color:#fff}.pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(126,109,255,.14);color:#a99fff;font-size:12px}
+div[data-baseweb="input"],div[data-baseweb="textarea"],div[data-baseweb="select"]{background:#fff!important;border-radius:12px!important}
+div[data-baseweb="input"] input,div[data-baseweb="textarea"] textarea{color:#10131c!important;-webkit-text-fill-color:#10131c!important}
+div[data-baseweb="select"] *{color:#10131c!important}
+.stTextInput label,.stTextArea label,.stSelectbox label,.stMultiSelect label,.stNumberInput label,.stFileUploader label{color:#dbe0ef!important;font-weight:600}
+.stButton>button{border:1px solid rgba(140,125,255,.45);border-radius:12px;background:linear-gradient(135deg,#6f5cff,#4e83ff);color:#fff;font-weight:700;padding:.65rem 1.2rem;box-shadow:0 10px 30px rgba(91,74,255,.2)}
+.stButton>button:hover{transform:translateY(-1px);border-color:#a99fff}
+.output{white-space:pre-wrap;background:#f8f9fc;color:#111827;border-radius:18px;padding:25px;line-height:1.65;box-shadow:0 18px 50px rgba(0,0,0,.18)}
+.chat-user{background:linear-gradient(135deg,#6758e8,#526ef4);padding:14px 18px;border-radius:18px 18px 5px 18px;margin:10px 0 10px 20%;color:#fff}
+.chat-ai{background:rgba(30,35,58,.85);border:1px solid rgba(255,255,255,.08);padding:14px 18px;border-radius:18px 18px 18px 5px;margin:10px 20% 10px 0;color:#e9ecf7}
+.step{display:flex;gap:10px;align-items:center;margin:15px 0}.stepdot{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#6758e8;color:white;font-weight:700}
+.footer{text-align:center;color:#737b91;border-top:1px solid rgba(255,255,255,.08);padding:30px;margin-top:60px}
+</style>
