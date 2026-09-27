@@ -14,53 +14,12 @@ section[data-testid="stSidebar"] *{color:#eef1ff!important}
 .card{background:rgba(20,24,42,.72);border:1px solid rgba(255,255,255,.09);border-radius:20px;padding:22px;box-shadow:0 15px 45px rgba(0,0,0,.18);height:100%}
 .card h3{margin:4px 0 8px;color:#fff}.muted{color:#9ba4bb}.accent{color:#8f87ff}
 .metric{font-size:40px;font-weight:800;color:#fff}.pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(126,109,255,.14);color:#a99fff;font-size:12px}
-div[data-baseweb="input"],
-div[data-baseweb="textarea"],
-div[data-baseweb="select"] {
-    background:#ffffff !important;
-    border-radius:12px !important;
-}
-
-div[data-baseweb="input"] input,
-div[data-baseweb="textarea"] textarea,
-div[data-baseweb="select"] input,
-div[data-baseweb="select"] textarea,
-input,
-textarea,
-select {
-    color:#10131c !important;
-    -webkit-text-fill-color:#10131c !important;
-    background-color:#ffffff !important;
-    caret-color:#10131c !important;
-}
-
-div[data-baseweb="select"] * {
-    color:#10131c !important;
-    -webkit-text-fill-color:#10131c !important;
-}
-
-input::placeholder,
-textarea::placeholder {
-    color:#6b7280 !important;
-    -webkit-text-fill-color:#6b7280 !important;
-    opacity:1 !important;
-}
-
-.stTextInput label,
-.stTextArea label,
-.stSelectbox label,
-.stMultiSelect label,
-.stNumberInput label,
-.stDateInput label,
-.stTimeInput label,
-.stFileUploader label {
-    color:#dbe0ef !important;
-    font-weight:600 !important;
-}
-.stTextInput label,.stTextArea label,.stSelectbox label,.stMultiSelect label,.stNumberInput label,.stFileUploader label{color:#dbe0ef!important;font-weight:600}
 div[data-baseweb="input"],div[data-baseweb="textarea"],div[data-baseweb="select"]{background:#fff!important;border-radius:12px!important}
 div[data-baseweb="input"] input,div[data-baseweb="textarea"] textarea{color:#10131c!important;-webkit-text-fill-color:#10131c!important}
 div[data-baseweb="select"] *{color:#10131c!important}
+.stTextInput label,.stTextArea label,.stSelectbox label,.stMultiSelect label,.stNumberInput label,.stFileUploader label{color:#dbe0ef!important;font-weight:600}
+.stButton>button{border:1px solid rgba(140,125,255,.45);border-radius:12px;background:linear-gradient(135deg,#6f5cff,#4e83ff);color:#fff;font-weight:700;padding:.65rem 1.2rem;box-shadow:0 10px 30px rgba(91,74,255,.2)}
+.stButton>button:hover{transform:translateY(-1px);border-color:#a99fff}
 .output{white-space:pre-wrap;background:#f8f9fc;color:#111827;border-radius:18px;padding:25px;line-height:1.65;box-shadow:0 18px 50px rgba(0,0,0,.18)}
 .chat-user{background:linear-gradient(135deg,#6758e8,#526ef4);padding:14px 18px;border-radius:18px 18px 5px 18px;margin:10px 0 10px 20%;color:#fff}
 .chat-ai{background:rgba(30,35,58,.85);border:1px solid rgba(255,255,255,.08);padding:14px 18px;border-radius:18px 18px 18px 5px;margin:10px 20% 10px 0;color:#e9ecf7}
