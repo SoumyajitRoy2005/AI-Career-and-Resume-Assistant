@@ -2,7 +2,26 @@
 import streamlit as st, os, re, json
 from pathlib import Path
 st.set_page_config(page_title="NEXORA — Your Career. Reimagined with AI.",page_icon="✦",layout="wide",initial_sidebar_state="expanded")
-st.markdown(Path("styles/main.css").read_text(),unsafe_allow_html=True)
+import streamlit as st
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BASE_DIR = Path(__file__).resolve().parent
+CSS_FILE = BASE_DIR / "styles" / "main.css"
+
+st.set_page_config(
+    page_title="NEXORA — Your Career. Reimagined with AI.",
+    page_icon="✦",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+st.markdown(
+    f"<style>{CSS_FILE.read_text(encoding='utf-8')}</style>",
+    unsafe_allow_html=True
+)
 from backend.db import create_user, login, save_profile
 from backend.core import *
 
